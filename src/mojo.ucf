@@ -1,0 +1,19 @@
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2012/11/05
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints
+NET "clk" LOC = P56 | IOSTANDARD = LVTTL;
+
+NET "eth_spi_mosi" LOC = P51 | IOSTANDARD = LVTTL;
+NET "eth_spi_miso" LOC = P41 | IOSTANDARD = LVTTL;
+NET "eth_spi_ss_n" LOC = P35 | IOSTANDARD = LVTTL;
+NET "eth_spi_sck" LOC = P33 | IOSTANDARD = LVTTL;
+
+NET "audio_sampler_mosi" LOC = P30 | IOSTANDARD = LVTTL;
+NET "audio_sampler_chip_select" LOC = P27 | IOSTANDARD = LVTTL;
+NET "audio_sampler_spi_clock" LOC = P24 | IOSTANDARD = LVTTL;
+NET "audio_sampler_miso<0>" LOC = P22 | IOSTANDARD = LVTTL;
+NET "audio_sampler_miso<1>" LOC = P17 | IOSTANDARD = LVTTL;
+NET "audio_sampler_miso<2>" LOC = P15 | IOSTANDARD = LVTTL;
+NET "audio_sampler_miso<3>" LOC = P12 | IOSTANDARD = LVTTL;
